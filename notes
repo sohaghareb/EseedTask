@@ -1,0 +1,21 @@
+delete en elemnt 
+ unset($array[1]);
+ <?php
+
+    $array = array(0 => "a", 1 => "b", 2 => "c");
+    unset($array[1]);
+               //↑ Key which you want to delete
+
+?>
+Output
+
+Array (
+    [0] => a
+    [2] => c
+)
+//////////////
+dominoes icons 
+http://www.geekchamp.com/icon-explorer/domino-icons
+https://stackoverflow.com/questions/13351175/calling-php-functions-in-javascript-using-ajax
+https://stackoverflow.com/questions/25677368/calling-a-specific-function-from-php-with-jquery-ajax
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_ajax_ajax_async

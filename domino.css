@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.player{
+	display: inline-block;
+    background-color: yellow;
+    width: 40%;
+    height: 60px;
+    margin-left: 10px;
+
+}
+.player1{
+	position: absolute;
+    margin-top: 11%;
+    margin-left: 26%;
+    width: 80%;
+}
+.player2{
+	width: 10%;
+    height: 60vh;
+    float: right;
+	margin-top: 20px;
+}
+.player3{
+	margin-left: 15%;
+	width: 80%;
+}
+.player4{
+	width: 10%;
+    height: 60vh;
+    float: left;
+    margin-top: 20px;
+}
+
+.container{
+	height: 100vh;
+
+}
+.board{
+	position: absolute;
+    width: 77%;
+    align-self: auto;
+    height: 83vh;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    margin-left: 13%;
+    text-align: center;
+}
+.clear{
+	 clear: both;
+}
+.next{
+	position: absolute;
+    margin-top: 13%;
+    width: 5%;
+    height: 35px;
+    margin-left: 71%;
+}
+.player img{
+	width: 42px;
+    height: 44px;
+    margin-left: 25px;
+	
+}
+
+.player img:hover{
+	 cursor: pointer;
+}
+
+.player1_img{
+
+}
+
+.player2_img{
+	
+}
+.player3_img{
+	
+}
+.player4_img{
+	
+}
+.valid1{
+	color: blue;
+}
+.valid2{
+	color:red;
+}
+.avail_one{
+	color: blue;
+}
+.avail_two{
+	color:red;
+}
